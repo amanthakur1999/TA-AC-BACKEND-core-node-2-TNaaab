@@ -3,7 +3,7 @@ var path = require('path');
 var qs = require('querystring')
 var http = require('http')
 //absolute path
-let pathapp = path.join(__dirname,"app.js");
+let pathapp = path.join(__dirname + "/app.js");
 console.log(pathapp);
 
 //relative path
